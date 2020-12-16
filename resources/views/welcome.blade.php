@@ -91,6 +91,7 @@
                 <div class="card-body">
                     <div class="text-center">
                         <div class="jumbotron">
+                            <img src="https://raw.githubusercontent.com/chanrose/andreasCourseAdmin/main/public/app.co.png" height="200 px" />
                             <h2 class="lead">Why you need join our courses?</h2>
                             <p>Each courses have reliable instructors and based on international curriculum. Guaranteed! Our learning graduates will be ready to face challenges in the world of work and business.</p>
                             <h1 class="display-4">Are you interested?</h1>

@@ -14,11 +14,11 @@
                     <div class="card-body">
                         <div class="card">
                             <div class="card-header">
-                                ASD 123
+                                {{$oneCourse->courseName}}
                             </div>
                             <div class="card-body">
                                 <blockquote class="blockquote mb-0">
-                                    <p>Detail Course. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                                    <p>{{$oneCourse->courseDescription}}</p>
                                     <p>Schedule.</p>
                                     <table class="table">
                                         <thead>
@@ -44,7 +44,7 @@
                                         </tr>
                                         </tbody>
                                     </table>
-                                    <footer class="blockquote-footer">Instructor <cite title="Source Title">ASD ASD</cite></footer>
+                                    <footer class="blockquote-footer">Instructor <cite title="Source Title">{{$oneCourse->instructorName}}</cite></footer>
                                 </blockquote>
                             </div>
                         </div>
